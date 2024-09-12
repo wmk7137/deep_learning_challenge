@@ -41,7 +41,9 @@ Were you able to achieve the target model performance?
 No
 
 What steps did you take in your attempts to increase model performance?
-Tried to optimize with a tuner, however the results failed consitently and did not allow me to find best fit parameters to load into the model.  So, attempted to try manual optimization by changing the number of layers, the number of nodes, the number of epochs, and the activation.
+Tried to optimize with a tuner, however the results failed consistently and did not allow me to find the best fit parameters to load into the model.  So, attempted to try manual optimization by changing the number of layers, the number of nodes, the number of epochs, and the activation.
 
 Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
+Overall results were after the manual optimization, I was only able to raise the percentage of accuracy by .3%.  I believe trying to convert the classifications to binary may help increase accuracy instead of Boolean.  I have the OneHotEncoder code bits sectioned out in my code, but I didn't activate them.  This would reduce some of the noise that the model is experiencing and could create a better result.
+
 
